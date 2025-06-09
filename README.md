@@ -17,6 +17,23 @@ It ensures that each player retains the same ID throughout the video, even after
 The goal is to detect and track football players with unique IDs throughout a short 15-second clip using the provided YOLOv11 model.
 
 ---
+requirements.txt-
+ultralytics==8.0.216
+deep_sort_realtime==1.3.1
+torch>=1.13.0
+opencv-python
+numpy
+
+# Create and activate virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # on Linux/Mac
+venv\Scripts\activate     # on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+
+
 
 
 
